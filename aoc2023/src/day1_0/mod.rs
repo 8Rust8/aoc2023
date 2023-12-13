@@ -2,7 +2,7 @@
 #[allow(unused)]
 use std::fs;
 
-const FILEPATH: &str = "C:/repo_local/aoc/rust/aoc2023/data/sample/day1copy";
+const FILEPATH: &str = "C:/repo_local/aoc/rust/aoc2023/data/sample/day1";
 
 pub fn get_day1() -> Option<u32> {
     let content = fs::read_to_string(FILEPATH).unwrap_or_else(|e| {
